@@ -1,0 +1,6 @@
+create database sales;
+create table orders(
+int order_id,
+int customer_id,
+date order_date, 
+decimal order_total);
